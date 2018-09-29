@@ -1,3 +1,15 @@
 {
-      "python.pythonPath": "C:\\Users\\chris\\Anaconda3\\Anaconda\\python.exe"
+      "python.pythonPath": "C:\\Users\\chris\\Anaconda3\\Anaconda\\python.exe",
+      "python.formatting.provider": "black",
+      "python.unitTest.unittestArgs": [
+            "-v",
+            "-s",
+            ".",
+            "-p",
+            "*test.py"
+      ],
+      "python.unitTest.pyTestEnabled": false,
+      "python.unitTest.nosetestsEnabled": false,
+      "python.unitTest.unittestEnabled": false,
+      "python.unitTest.promptToConfigure": false
 }
